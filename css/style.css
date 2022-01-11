@@ -274,7 +274,7 @@ header {
      float: left;
      width: 120px;
      height: 100%;
-     background: #0808ff;
+     background: #a83232;
      border-right: #fff solid 7px;
      padding: 33px;
      position: absolute;
@@ -365,13 +365,13 @@ header {
 
 #sidebar ul li a:hover {
      color: #fff;
-     background: #0808ff;
+     background: #a83232;
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
      color: #fff;
-     background: #0808ff;
+     background: #a83232;
 }
 
 a[data-toggle="collapse"] {
@@ -580,8 +580,10 @@ ul.btn li:last-child {
 }
 
 .blu {
-     color: #0808ff;
+     color: #a83232;
 }
+
+
 
 .read_more {
      font-size: 17px;
@@ -640,9 +642,11 @@ ul.btn li:last-child {
 }
 
 .about_img {
-     max-width: 600px;
-     width: 100%;
-     float: right;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+    max-width: 70%;
+    width: 100%;
 }
 
 .about_img figure {
@@ -664,7 +668,7 @@ ul.btn li:last-child {
 }
 
 .blu2 {
-     color: #3a3aff;
+     color: #a83232;
      font-weight: bold;
 }
 
